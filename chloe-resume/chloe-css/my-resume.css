@@ -14,11 +14,11 @@ p {
 /* Layout */
 /* ------------------------ */
 body {
-	background: #333333;
-	border: 5px solid #999999;
+	background: #FFA07A;
+	border: 5px solid #008080;
 	margin: 30px;
 	padding: 50px;
-	color: white;
+	color: #FFFAF0;
 }
 
 header,
@@ -29,11 +29,11 @@ footer {
 }
 
 header {
-	border-bottom: 2px solid #999999;
+	border-bottom: 2px solid #008080;
 }
 
 footer {
-	border-top: 2px solid #999999;
+	border-top: 2px solid #008080;
 }
 
 section {
@@ -45,7 +45,7 @@ section {
 /* ------------------------ */
 h1 {
 	text-align: center;
-	font-style: italic;
+	font-style: bold;
 }
 
 h2 {
@@ -55,7 +55,7 @@ h2 {
 
 h3 {
 	text-transform: uppercase;
-	color: #999999;
+	color: #008080;
 	font-family: Arial;
 	font-size: 14px;
 	margin-bottom: 15px;
@@ -83,7 +83,7 @@ nav li {
 
 nav li:not(:last-child) {
 	padding-right: 5px;
-	border-right: 1px solid #999999;
+	border-right: 1px solid #008080;
 	margin-right: 5px;
 }
 
@@ -91,7 +91,7 @@ nav li:not(:last-child) {
 /* Links */
 /* ------------------------ */
 a {
-	color: #5BC690;
+	color: #FFFAF0;
 }
 
 
@@ -101,7 +101,7 @@ img {
 	float: right;
 	margin-left: 20px;
 	margin-bottom: 20px;
-	border: 2px solid #999999;
+	border: 2px solid #008080;
 	padding: 5px;
 }
 
@@ -129,11 +129,11 @@ h4 span {
 }
 
 ol p {
-	color: #999999;
+	color: #008080;
 }
 
 em {
-	color: #999999;
+	color: #008080;
 	font-style: normal;
 	font-size: 12px;
 }
