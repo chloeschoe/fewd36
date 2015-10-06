@@ -1,41 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<title>About Me</title>
 	<link rel="stylesheet" href="chloe-resume/chloe-css.css"/>
 	<meta charset="utf-8"/>
 </head>
-<body>
 
 <style>
 
 header{
+	text-align:center;
+	font-style: underlined;
 	margin-top: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	padding: 10px;
 	background-color:thistle;
-	border: 5px dotted darkslateblue;
+	font-family: courier;
+	border-radius: 20px;
+	border: 2px dotted darkslateblue;
 }
 
+body{
+	background-color: mistyrose;
+}
+section{
+	text-align: center;
+	font-style: italic
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-family:courier;
+}
 blockquote{
 	margin: 10px;
 	padding:10px;
 	background-color: lavender;
+	border-radius: 35px;
 	border: 5px dotted darkslategray;
 }
 
-img{margin-bottom: 10px;
+
+img{
+	width: 350px;
+	height: 350px;
+	float:right
+	margin-bottom: 10px;
 	padding: 10px;
 	background:lavender;
-	border: 2px dotted red; 
+	border-radius: 550px;
+	border: 2px solid black; 
+}
 
+nav ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: courier;
+	font-size: 0; /* removes extra space character between li's */
+}
+
+nav li {
+	display: inline;
+	font-family: courier;
+	font-size: initial; /* removes extra space character between li's */
+}
+
+nav li:not(:last-child) {
+	padding-right: 5px;
+	border-right: 1px solid #008080;
+	margin-right: 5px;
+}
 }
 
 </style>
-
+<body>
 <header>
-	<h1>Chloe S. Choe</h1>
+<h1>Chloe S. Choe</h1>
 
 	<nav>
 		<ul>
