@@ -1,0 +1,117 @@
+/* Reset */
+/* ------------------------ */
+
+* {
+	margin: 0;
+	padding: 0px;
+	font-size: 15px;
+	font-family: Avenir;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	color:#CC6600;
+	margin: 5px;
+	padding: 1px;
+	font-size: 25px;
+}
+
+h2 {
+	color:#CC6600;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+img {
+	margin: 7px;
+	padding: 10px;
+
+}
+
+li {
+	font-size:15px;
+	text-indent: 10px;
+}
+
+ul{
+	text-indent: 10px;
+}
+
+.container {
+	display:flex;
+}
+
+.author {
+	color: #66CCCC;
+	margin:5px;
+	padding:3px;
+	font-style: normal;
+}
+
+.left-column {
+	background-color: beige;
+
+}
+
+.time {
+	background-color: beige;
+}
+
+.itemlist { 
+	display: flex;
+	text-align:center;
+	list-style-type: none;
+}
+
+.insidebar {
+	margin: 25px;
+	text-align: center;
+}
+
+.cookie-body {
+	background-color: beige;
+	margin:20px;
+	list-style-position: inside;
+
+}
+
+.cookie-body h2{
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.recipe{
+	margin-top: 8px;
+}
+
+
+.sidebar {
+    padding:30px;
+    background-color: #F2D6A0;
+    display:flex;
+}
+    
+.side-content {
+	margin-left: 10px;
+	margin-right: 8px;
+	margin-top: 15px;
+}
+
+.tips{
+	padding: 2px;
+}
+
+blockquote {
+	margin:0;
+}
+
+section {
+	display:flex;
+	background: beige;
+}
