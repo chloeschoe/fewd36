@@ -9,8 +9,11 @@ var reset = document.querySelector(".reset");
 //Events
 //-----------------------------------------
 
-tempF.addEventListener('keyup', calcFtoC);
-tempC.addEventListener('keyup', calcCtoF);
+tempF.addEventListener("keyup", calcFtoC);
+tempC.addEventListener("keyup", calcCtoF);
+convert.addEventListener("keyup", calcCtoF);
+reset.addEventListener("click", setToZero);
+
 
 //Event handler Functions 
 //-----------------------------------------
@@ -32,21 +35,34 @@ function calcCtoF(event) {
   }
 }
 
-  //Celsius to Fahrenheit;
-  //comment: F = C * 9/5 +32;
+
+
+//Celsius to Fahrenheit;
+//comment: F = C * 9/5 +32;
   
   
  function calcCelciusToFahrenheit(tempC){
    var tempF = tempC * 9/5 + 32;
-   return tempF;
+   return Math.round(tempF);
 
 }
 
-  // convert Fahrenheit to Celsius; 
-  //formula : C = (F -32) * (5/9);
+// convert Fahrenheit to Celsius; 
+//formula : C = (F -32) * (5/9);
 
  function calcFahrenheitToCelcius(tempF){
    var tempC = (tempF-32) * 5/9;
-   return tempC;//
+   return Math.round(tempC);//
 
 }
+
+//setting both values to zero//
+
+function setToZero(tempC,tempF) {
+  var reset= 0;
+  var reset= 0;
+  return reset;
+
+}
+
+

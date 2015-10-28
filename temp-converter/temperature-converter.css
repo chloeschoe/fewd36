@@ -22,6 +22,7 @@ p{
 body {
 	background-color: lemonchiffon;
 	text-align: center;
+	padding:7px;
 
 }
 
@@ -48,28 +49,13 @@ div {
 }
 
 
-.convert{
-
-	display: flex;
-	padding-right: 90px;
-	padding-left: 15px;
-
-}
-
-.reset{
-	
-	display: flex;
-	padding-right: 70px;
-	padding-left: 20px;
-
-}
-
 
 img{
 
 	width: 450px;
-	height: 500px;
-	padding: 20px;
+	height: 480px;
+	padding-top: 25px;
+	padding-bottom: 0px;
 
 }
 
@@ -84,13 +70,14 @@ input {
 	text-align: center;
 	font-size: 25px;
 	padding: 5px;
+	margin-bottom: 20px;
 
 }
 
 button {
 
-	width: 100px;
-	height: 60px;
+	width: 90px;
+	height: 45px;
 	border: 4px solid black;
 	background: white;
 	color: black;
@@ -98,25 +85,44 @@ button {
 	text-align: center;
 	font-size: 18px;
 	font-family:"Montserrat";
+	margin: 15px;
+	padding-top: 0px;
 
 }
 
-li{
-	margin-bottom: 20px;
-
-}
 
 .convert
 button:hover {
 	
-	box-shadow: 0 0 3px 3px rgba(0, 0, 60, 0.75);
+	box-shadow: 0 0 5px 3px rgba(0, 0, 60, 0.5);
 	
+}
+
+li.convert{
+
+	display: flex;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	text-align: center;
+
+}
+
+li.reset{
+	
+	display: flex;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	text-align: center;
 }
 
 .reset
 button:hover {
 	
-	box-shadow: 0 0 5px 3px rgba(0, 0, 60, 0.75);
+	box-shadow: 0 0 5px 3px rgba(0, 0, 60, 0.5);
 
 }
 
