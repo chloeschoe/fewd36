@@ -9,10 +9,12 @@ var reset = document.querySelector(".reset");
 //Events
 //-----------------------------------------
 
+
 tempF.addEventListener("keyup", calcFtoC);
-tempC.addEventListener("keyup", calcCtoF);
-convert.addEventListener("keyup", calcCtoF);
+convert.addEventListener("click", calcCtoF);
 reset.addEventListener("click", setToZero);
+target.addEventListener("click",calcCtoF);
+
 
 
 //Event handler Functions 
@@ -42,7 +44,7 @@ function calcCtoF(event) {
   
   
  function calcCelciusToFahrenheit(tempC){
-   var tempF = tempC * 9/5 + 32;
+   var tempF = parseInt(tempC) * 9/5 + 32;
    return Math.round(tempF);
 
 }
@@ -51,18 +53,19 @@ function calcCtoF(event) {
 //formula : C = (F -32) * (5/9);
 
  function calcFahrenheitToCelcius(tempF){
-   var tempC = (tempF-32) * 5/9;
+   var tempC = parseInt(tempF-32) * 5/9;
    return Math.round(tempC);//
 
 }
 
 //setting both values to zero//
 
-function setToZero(tempC,tempF) {
-  var reset= 0;
-  var reset= 0;
+function setToZero(event) {
+  tempF.value = "";
+  tempC.value = "";
   return reset;
 
 }
+
 
 
