@@ -33,9 +33,7 @@ h1{
 div {
 	
 	background: lightgrey;
-	position: relative;
-	margin-left: 20%;
-	margin-right: 18%;
+	width:500px;
 
 }
 
@@ -43,49 +41,48 @@ input,
 button {
 
 	padding: 8.5px 10px;
-	display: inline-block;
 	line-height: 27px;
-	margin:7px;
+	margin:auto;
 
 }
 
+ul {
+
+	margin: 5px;
+	padding: 5px;
+}
+
+li {
+
+	margin-bottom: 5px;
+}
 
 button {
 	
 	background: cornflowerblue;
 	font-size:14px;
-	width:100px;
-	margin-right: -70px;
+	width:110px;
 	border:1px solid darkgrey;
 	border-radius: 3.5px;
+	margin-left:15px;
 
 }
 
-button:hover{
+button:hover {
 
 	box-shadow: 0 0 3px 1px rgba(20, 20, 80, 10);
 
 }
 
-ul,
-li {
-	
-	width: 150px;
-	height: 30px;
-	font-size:14px;
-	padding-top:5px;
-
-}
 
 .task {
 
 	background: white;
-	width: 200px;
-	margin-left: -100px;
-	margin-right: 10px;
+	width: 160px;
 	border:1px;
 	border-radius:3px;
 	font-size:14px;
+	margin-left: 2px;
 
 }
 
@@ -94,39 +91,40 @@ li {
 	border:2px;
 	border-radius:3px;
 	font-size:14px;
+	width:145px;
+	margin-left: 20px;
 
 }
 
 
-.box {
-
-	width: 20px;
-   	height: 20px;
-   	border: 1px solid grey;
-   	border-radius: 4px;
-   	font-size: 15px;
-   	margin: 10px;
-
-}
 
 .activities {
 
 	border: 2px solid darkgrey;
 	padding:25px;
-	text-align:center;
 	border-radius: 4px;
+	margin:auto;
 
 }
 
+.check {
 
-.box-1 { 
+	margin-top: 15px;
+	margin-left: 15px;
 
-	margin-left:-20px;
-	margin-top:2px;
-	margin-bottom: -7px;
+}
+
+input:checked + span{
+
 	text-decoration:line-through;
+
 }
 
+span {
+	
+	padding: 3px;
+	margin:5px;
+}
 
 
 
