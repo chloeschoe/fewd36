@@ -15,7 +15,7 @@ div {
 
 div::after {
   content: "";
-  background: url('file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/flowergradient.jpg');
+  background: url('https://41.media.tumblr.com/1058f1b289c9f3d0c8d6c6a94f4d7e2b/tumblr_nydujgFnpT1ub8rh1o1_500.jpg');
   opacity: 0.5;
   top: 0;
   left: 0;

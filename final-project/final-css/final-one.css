@@ -97,8 +97,8 @@ h2 {
 
 .neigh-filter::after {
   content: "";
-  background: url('file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/galaxy.jpg');
-  opacity: .75;
+  background: url('https://s-media-cache-ak0.pinimg.com/236x/6e/1d/b0/6e1db0bc6f4e33dcbb7dd7b15a73eb1d.jpg');
+  opacity: .5;
   top: 0;
   left: 0;
   bottom: 0;
@@ -137,7 +137,7 @@ h2 {
 
 .introduction {
 	font-family: 'Nixie One';
-	background: url('file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/japaneselady.jpg');
+	background: url('https://40.media.tumblr.com/a37027def60ed94a249ff17b198e25de/tumblr_nn2m65f2oT1qzbavco1_1280.jpg');
 	height:600px;
 	padding-left: 25px;
 	padding-bottom: 100px;
@@ -178,7 +178,7 @@ h2 {
 
 .cause {
 	font-family:'Nixie One';
-	background: url('file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/flamingo.png');
+	background-image: url('https://40.media.tumblr.com/875e0f0fa56bb10bb8ed956d25ba4be7/tumblr_ny9vcrmoWB1snsp19o1_500.png');
 	height:600px;
 	padding-top:100px;
 	padding-left: 25px;
