@@ -1,0 +1,76 @@
+/* Layout */
+/* ---------------------------------- */
+
+html {
+
+	background:url(file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/marble-gradient.jpg);
+}
+
+h1 {
+	font-family: 'prata';
+	font-size: 35px;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+h1:hover {
+	color:bisque;
+}
+
+.navsidebar {
+	display:flex;
+	background: lightsteelblue;
+	width: 1280px;
+
+}
+.navsidebar ul {
+	margin-left: 70px;
+}
+
+.navsidebar li {
+	display: inline-block;
+	margin-top: 35px;
+	font-family:'Megrim';
+	font-size:15px;
+}
+
+.navsidebar a {
+	padding: 10px 10px;
+	text-decoration: none;
+
+}
+
+form {
+	text-align: center;
+	font-family: 'prata';
+	font-size: 15px;
+	display: block;
+
+}
+
+.form-group {
+	margin-bottom: 10px;
+
+}
+
+.section {
+	margin:80px;
+	padding:35px;
+	border: 90px; 
+	border-radius: 5px;
+	background: lavender;
+}
+
+.checkbox {
+	padding: 25px;
+}
+
+.password {
+	border:5px;
+}
+
+label {
+
+	padding: 10px;
+}

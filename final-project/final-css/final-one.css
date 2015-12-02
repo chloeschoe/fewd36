@@ -1,0 +1,271 @@
+/* Layout */
+/* ---------------------------------- */
+
+html{
+	
+	height: 100%;
+
+}
+
+* {
+
+	margin: 0;
+	padding: 0;
+
+
+}
+
+h1 {
+
+	font-size: 32px;
+	padding: 20px;
+	background: lightsteelblue;
+
+}
+
+
+h1:hover { 
+    color: floralwhite;
+}
+
+p {
+	width:1000px;
+}
+
+h2 {
+	width:1000px;
+	text-align: center;
+}
+
+.part {
+	width: 1280px;
+}
+
+.navsidebar {
+	display:flex;
+	background: lightsteelblue;
+	width: 1280px;
+	font-family:'prata';
+
+}
+.navsidebar ul {
+	margin-left: 100px;
+}
+
+.navsidebar li {
+	
+	display: inline-block;
+	margin-top: 50px;
+	font-family:'Megrim';
+	font-size:18px;
+	font-weight: 400px;
+
+}
+
+.navsidebar a {
+	padding: 10px 10px;
+	text-decoration: none;
+
+}
+
+.navsidebar-tabs a { 
+	background: linear-gradient (#49708f, #293f50);
+	border-right: 1px solid rgba (0,0,0,.3);
+	color: #fff;
+	padding:  12px 20px;
+	text-decoration: none;
+}
+
+.navsidebar-tabs a:hover{
+	background:lightslategrey;
+	box-shadow:inset 0 0 10px 1px rgba (0,0,0,.3);
+	border-radius: 4px;
+}
+
+.neigh-filter {
+	
+	font-family: 'Pacifico';
+	font-size: 50px;
+	padding: 15px;
+	display:block;
+	position:relative;
+	height:400px;
+	text-align: center;
+
+
+}
+
+.neigh-filter::after {
+  content: "";
+  background: url('file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/galaxy.jpg');
+  opacity: .75;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.neigh-filter h2 {
+	padding-right:290px; 
+	padding-bottom: 45px;
+	border:15px;
+
+}
+
+.neigh-filter h2:hover { 
+    color: bisque;
+}
+
+.btn-group {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 5px;
+}
+
+.neigh-text {
+	border: 10px;
+	background:honeydew;
+	border-radius: 5px;
+	width:750px;
+	padding: 25px;
+	margin-left: 185px;
+	margin-top: 100px;
+
+}
+
+.introduction {
+	font-family: 'Nixie One';
+	background: url('file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/japaneselady.jpg');
+	height:600px;
+	padding-left: 25px;
+	padding-bottom: 100px;
+	padding-right: 100px;
+	padding-top: 150px;
+}
+
+.intro-text {
+	border: 5px;
+	background:honeydew;
+	border-radius: 10px;
+	width:750px;
+	margin-left: 100px;
+
+}
+
+.introduction h2 {
+	text-align: center;
+	border:25px;
+	padding:25px;
+	background:honeydew;
+	border-radius: 10px;
+	margin-top: -60px;
+}
+
+.introduction h2:hover {
+	color: darkmagenta;
+}
+
+.introduction p {
+	text-align: center;
+	border: 25px;
+	background:honeydew;
+	border-radius: 5px;
+	padding: 25px;
+}
+
+
+.cause {
+	font-family:'Nixie One';
+	background: url('file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/flamingo.png');
+	height:600px;
+	padding-top:100px;
+	padding-left: 25px;
+}
+
+.cause-text {
+
+	border: 5px;
+	background:honeydew;
+	border-radius: 10px;
+	width:750px;
+	margin-left: 100px;
+
+}
+
+.cause p {
+	text-align: center;
+	border: 25px;
+	background:honeydew;
+	border-radius: 10px;
+	margin:auto;
+	padding: 25px;
+}
+
+.cause h2 {
+	text-align: center;
+	padding: 25px;
+	border: 45px;
+	background:honeydew;
+	border-radius: 10px;
+}
+
+.cause h2:hover{
+	color:darkmagenta;
+}
+
+footer {
+	margin: 15px;
+	background: lightsteelblue;
+	border: 35px;
+	padding: 20px;
+	margin: 1px;
+}
+
+.foot_social {
+	font-family: 'nixie one';
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+.main-contact{
+	text-align: center;
+	background-color: thistle;
+	padding: 20px;
+
+}
+
+.contact {
+	font-family: 'Nixie One';
+	font-size:17px;
+	font-weight: 50%;
+	display: flex;
+	text-align: center;
+	background: thistle;
+	padding-left: 50px;
+}
+ 
+.contact:hover {
+	color:bisque;
+}
+
+.social_icon {
+
+	list-style: none;
+	text-align: center;
+	margin-right: 100px;
+
+}
+
+.social_icon li {
+	display: inline-block;
+	padding: 5px;
+}
+
+
+
+
+

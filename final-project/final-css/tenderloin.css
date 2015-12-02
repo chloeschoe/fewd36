@@ -1,0 +1,64 @@
+/* Layout */
+/* ---------------------------------- */
+* {
+	margin:0;
+	padding:0;
+}
+
+div {
+  width: 1200px;
+  height: 1000px;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+div::after {
+  content: "";
+  background: url('file:///Users/mizdollhouse14/Desktop/fewd36/final-project/img/flowergradient.jpg');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+h1 {
+	font-family: 'pacifico';
+	font-size: 75px;
+	text-align: center;
+	padding: 10px;
+}
+
+h1:hover { 
+    color: floralwhite;
+}
+
+h3,
+ul,
+li {
+	font-family: 'Quattrocento';
+}
+
+h3 {
+	text-decoration: underline;
+	padding: 20px;
+	font-size: 25px;
+}
+
+h3:hover { 
+    color: floralwhite;
+}
+
+li {
+
+	font-size:15px;
+
+}
+
+
+
+
+
