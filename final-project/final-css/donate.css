@@ -1,0 +1,154 @@
+/* Layout */
+/* ---------------------------------- */
+/* Layout */
+/* ---------------------------------- */
+
+html {
+	
+	height: 100%;
+
+}
+
+
+body{
+	
+	font-family: 'Pacifico';
+	font-size: 50px;
+	padding: 15px;
+	display:block;
+	position:relative;
+	height:1000px;
+	text-align: center;
+
+
+}
+
+body::after {
+  content: "";
+  background: url('https://s-media-cache-ak0.pinimg.com/236x/13/8d/09/138d09bb21130cb4981a9a0f98e3a064.jpg');
+  opacity: .5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+}
+
+h1{
+	
+	font-family: 'pacifico';
+	font-size: 22px;
+	padding:10px;
+	margin-bottom:10px;
+	background: #66CC66;
+	text-align: center;
+	word-spacing:.35em;
+
+}
+
+h1:hover {
+	color:seagreen;
+}
+
+div {
+	
+	background: lightsteelblue;
+	width:500px;
+
+}
+
+input, 
+button {
+
+	padding: 8.5px 10px;
+	line-height: 27px;
+	margin:auto;
+
+}
+
+ul {
+
+	margin: 5px;
+	padding: 5px;
+}
+
+li {
+	font-size: 50px;
+	margin-bottom: 5px;
+	list-style: none;
+}
+
+button {
+	
+	background: seagreen;
+	font-size:14px;
+	width:110px;
+	border:1px solid darkgrey;
+	border-radius: 3.5px;
+	margin-left:15px;
+	font-family: 'quattrocento';
+
+}
+
+button:hover {
+
+	box-shadow: 0 0 3px 1px rgba(20, 20, 80, 10);
+
+}
+
+
+.task {
+
+	background: white;
+	width: 160px;
+	border:1px;
+	border-radius:3px;
+	font-size:14px;
+	margin-left: 2px;
+
+}
+
+.date {
+	
+	border:2px;
+	border-radius:3px;
+	font-size:14px;
+	width:145px;
+	margin-left: 20px;
+
+}
+
+
+
+.activities {
+
+	border: 2px solid black;
+	padding:25px;
+	border-radius: 20px;
+	margin:auto;
+
+}
+
+.check {
+
+	margin-top: 15px;
+	margin-left: 15px;
+
+}
+
+input:checked + span{
+
+	text-decoration:line-through;
+
+}
+
+span {
+	
+	padding: 3px;
+	margin:5px;
+}
+
+

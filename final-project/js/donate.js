@@ -10,53 +10,16 @@ var checkbox= document.querySelector(".checkbox");
 console.log (task);
 console.log (date);
 
-
-//Setup 
-
- var checkedList ={
-
- 	"tasks" :[]
- };
-
 //Events
 
 button.addEventListener ("click",addTask);
 form.addEventListener   ("submit", addTask);
 task.addEventListener   ("submit", addTask);
-window.addEventListener ("load", pageLoad);
-
 
 
 //Event handler function
 
-function pageLoad(event) {
-
-	if (localStorage.getItem("theme") == null) {
-
-	} else {
-		theme= JSON.parse(localStorage.getItem("theme"));
-		addTask	(theme) ;
-	}
-}
-
-
-function testIt(event) {
-
-	console.log ("testIt");
-	console.log (event.target);
-	event.target.className ="checked";
-
-	localStorage.setItem('theme', JSON.stringify(theme));
-
-
-}
-
-
-
-//Update page functions 
- 
-
-function addTask(theme){
+function addTask(e){
 
 	e.preventDefault();
 	var dateValue = date.value;
@@ -64,7 +27,7 @@ function addTask(theme){
 
 
 	//Step 1 -create the element
-	var checkbox = document.createElement("input");
+	var checkbox = document.createElement ("input");
 	var newTask  = document.createElement("li");
 	var span     = document.createElement("span");
 
@@ -72,7 +35,7 @@ function addTask(theme){
 	//Step 2 -decorate the elements
 
 	checkbox.setAttribute ("type", "checkbox");	
-	span.textContent = task.value +"("+ date.value+ ")";
+	span.textContent = "$"+task.value +"("+ date.value+ ")";
 
 	//Step 3 -insert the element
 	
@@ -82,6 +45,16 @@ function addTask(theme){
 	//label.appendChild(li);
 
 }
+
+function testIt(event) {
+
+	console.log("testIt");
+	console.log(event.target);
+	event.target.className ="checked";
+
+}
+
+
 
 
 
